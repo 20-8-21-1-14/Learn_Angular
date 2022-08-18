@@ -1,5 +1,5 @@
 {
-  "name": "my-angular",
+  "name": "Learn_Angular",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "private": true,
-  "homepage": "https://20-8-21-1-14.github.io/my-angular",
+  "homepage": "https://20-8-21-1-14.github.io/Learn_Angular/",
   "dependencies": {
     "@angular/animations": "^14.1.0",
     "@angular/common": "^14.1.0",
