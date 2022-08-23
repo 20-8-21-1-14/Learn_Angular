@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   public user_age = 30;
+  public car_remain = ['Toyota','Vinfast','Mustang','Ferrari','Volvo'];
   constructor() { }
 
   ngOnInit(): void {
