@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   public user_name = ''
-  public user_age = 30;
+  public user_age = 29;
   public car_remain = ['Toyota','Vinfast','Mustang','Ferrari','Volvo'];
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  public increase_Age() {
+    this.user_age++;
+    if(this.user_age >=30){
+      this.user_name='Old man';
+    }
+  } 
 }

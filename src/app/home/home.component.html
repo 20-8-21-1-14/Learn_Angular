@@ -6,11 +6,20 @@
 <br /><br />
 
 <input [(ngModel)]="user_name" />
+<button (click)="increase_Age()">Click to increase your age</button>
 <h3>Welcome {{user_name}} to our website</h3>
 
 <br /><br />
-<span *ngIf="user_age >= 30" class="underage">User age is above > 30!</span>
-<span *ngIf="user_age < 30 ">User age is under < 30!</span>
+
+<span
+    *ngIf="user_age<=30; then condition1 else condition2"
+></span>
+
+<br />
+<ng-template #condition1 class="underage">User age is {{user_age}}</ng-template>
+<ng-template #condition2 class="overage">Your age is under 30: {{user_age}} years old</ng-template>
+<!-- <span *ngIf="user_age >= 30" class="underage">User age is above > 30!</span>
+<span *ngIf="user_age < 30 ">User age is under < 30!</span> -->
 
 <br /><br />
 
