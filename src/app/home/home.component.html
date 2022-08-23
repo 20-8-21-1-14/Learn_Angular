@@ -4,6 +4,11 @@
 </div>
 
 <br /><br />
+
+<input [(ngModel)]="user_name" />
+<h3>Welcome {{user_name}} to our website</h3>
+
+<br /><br />
 <span *ngIf="user_age >= 30" class="underage">User age is above > 30!</span>
 <span *ngIf="user_age < 30 ">User age is under < 30!</span>
 
