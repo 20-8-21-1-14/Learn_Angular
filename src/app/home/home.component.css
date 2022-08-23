@@ -8,3 +8,11 @@
 .underage{
     color: red;
 }
+
+.overage{
+    color: green;
+}
+
+.username{
+    color:goldenrod;
+}
