@@ -1,4 +1,5 @@
-<div class="box">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<div (pointermove)="mouse_move()" class="box">
     <div class="box__ghost">
       <div class="symbol"></div>
       <div class="symbol"></div>
@@ -29,8 +30,7 @@
         <div class="box__description-text">It seems like we couldn't find the page you were looking for</div>
       </div>
       
-      <!-- <a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="box__button">Back To Home</a> -->
-      
+      <a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="box__button">Back To Home</a>
     </div>
     
 </div>

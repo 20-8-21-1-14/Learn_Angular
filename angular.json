@@ -25,7 +25,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["src/assets/eyes_movement.js",
+                        "//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"]
           },
           "configurations": {
             "production": {
